@@ -1,0 +1,237 @@
+*
+{
+
+    margin:0;
+    padding:0;
+
+}
+
+.wrapper{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+
+}
+body{
+    font-family: Arial;
+}
+ul{
+    list-style: none;
+}
+a {
+text-decoration: none;
+color: #444;
+
+}
+h1 {
+Color: rgb(23, 15, 59);
+font-family: Great Vibes, cursive;
+font-size: 45px;
+margin: 15px;
+margin-top: 35px ;
+/* Header */
+}
+h2{
+    color: whitesmoke;
+    font-size: 55px;
+}
+
+header{
+    display: flex;
+    background-color: rgb(240, 235, 235);
+}
+header h1 {
+    float: left;
+    
+}
+header nav{
+    float: right;
+    margin-top: 50px;
+}
+.nav-links {
+    display: flex;
+}
+
+header nav ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+/* Accueil*/
+#Accueil
+{
+    height: 400px;
+    background: url(images/ensemble.jpg) center;
+    background-size: 100%;  
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 30px;
+    
+}
+#Accueil h2{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+
+}
+.button-1{
+
+display: block;
+width: 120px;
+height: 50px;
+background: black; 
+color:gold  ;
+font-size: 20px;
+margin: 0 auto;
+line-height: 50px; 
+border-radius: 3px;
+}
+
+/* Profil */
+
+
+ h3 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 90px;
+    margin-top: 100px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    
+
+
+}
+.grid{
+    display: grid;
+    grid-template-columns:600px  1fr;
+    grid-gap: 10%;
+    width: 100%;
+    background-color:  #F5F5DC ;
+    color: black;
+    
+    
+}
+.grid .one {
+    grid-row: 1;
+    width: 20px;
+    
+   
+}
+.grid .one img{
+    
+    width: 640px;  
+}
+.grid .two {
+    grid-column: 2/2;
+    margin-left: -100px;
+    font-size: 18px;
+    text-align: left; 
+    margin-top: 20px; 
+    width: 700px;
+
+}
+#Projets{
+    margin-top: -200px;
+}
+
+#Projets img{
+     margin-left: 320px;
+}
+/* Hoobies */
+
+.hobbies {
+    display: grid;
+    grid-template-columns: 3 1fr;
+    font-size: 25px;
+    grid-column-gap: 50px ;
+    margin:auto;
+    height: 400px;
+    margin-top: -180px;
+}
+
+
+.sport {
+    margin: auto;
+
+
+
+}
+
+.sport img{
+    height: 80px;
+    width: 80px;
+    margin-right: 5px;
+
+}
+
+.jeuxvideo {
+    grid-column: 2 / 3;
+    margin: auto;
+}
+.jeuxvideo img{
+    height: 80px;
+    width: 90px;
+    margin-left: 10px;
+
+}
+.cinema{
+    grid-column: 3/3 ;
+    align-content: center;
+    margin: auto;
+}
+.cinema img{
+    height: 80px;
+    width: 80px;
+    zoom: 125%;
+    
+}
+/*  Sur Moi */
+#Sur-moi{
+ margin-top: px;
+
+}
+.grid2 {
+    display: grid;
+    grid-template-columns:2  1fr;
+    grid-gap: 10%;
+    width: 100%;
+    background-color: #BBD2E1;
+    margin-top:-40px ;
+}
+.grid2 .SM1{
+   
+     grid-row: 1;
+     width: auto;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 50px;
+     
+
+    }
+.grid2 .SM2 img{
+    height: 416px;
+    width: 670px;
+    margin-top: -10px;  
+    margin-left: 2px ;
+}
+
+.grid2 .SM2{
+    grid-column: 2/2;
+    margin-left: -100px;
+    margin-top: 10px; 
+    width: auto;
+
+}
+/* footer */
+
+footer{
+    text-align: center;
+    font-size: 25px;
+}
+
+footer p{
+    margin-top: -50px;
+}
