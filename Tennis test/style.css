@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://img.aws.la-croix.com/2020/06/01/1301096954/c5c46beb34f19890d230b8ff531aef5377dc5541_0_1400_994.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    text-align: center;
+    color:gold;
+    text-shadow: 2px 0 0 black ;
+}
+
+
+#gameCanvas{
+
+    margin-top: 20px;
+   margin-left: 400px;
+    
+}
